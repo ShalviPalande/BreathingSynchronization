@@ -8,11 +8,11 @@ AllData.zip file consists of raw breathing data collected from 15 pairs of parti
 
 The repository consists of 3 branches.
 1) Python Codes 
-         1.A) InputDataConditionSwitch.py : This python file can be used after connecting the laptop to 2 Arduino Mega Microcontrollers. 
-           The code can register the raw breathing data onto excel sheets, along with selecting the condiotion for the modality in which the data is to be showcased back to the user.
+          1.A) InputDataConditionSwitch.py : This python file can be used after connecting the laptop to 2 Arduino Mega Microcontrollers. 
+           The code can register the raw breathing data onto excel sheets, along with selecting the condiotion for the modality in which the data is to be             showcased back to the user.
            
-         1.B) DataAnalysisPearsonCorrelation.py : This python file is to be used after all the data has been collected from the user1 and user2.
-           The code cleans the data, normalises it, finds the respiration rate of the raw breathing data and finally applies pearson correlation to the same.
+          1.B) DataAnalysisPearsonCorrelation.py : This python file is to be used after all the data has been collected from the user1 and user2.
+           The code cleans the data, normalises it, finds the respiration rate of the raw breathing data and finally applies pearson correlation to the                    same.
            
 2) Arduino Codes
           2.A) BreathingInput : Receives input from stretch sensor and normalizes sensor input and sends raw breathing data back to python (1.A)
