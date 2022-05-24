@@ -14,6 +14,8 @@ The repository consists of 3 branches.
            1.B) DataAnalysisPearsonCorrelation.py : This python file is to be used after all the data has been collected from the user1 and user2.
            The code cleans the data, normalises it, finds the respiration rate of the raw breathing data and finally applies pearson correlation to the                    same.
            
+           1.C) Data Analysis : This oython files consists of the code using neurokit to find the respiration rate from the raw breathig data. 
+           
 2) Arduino Codes
           2.A) BreathingInput : Receives input from stretch sensor and normalizes sensor input and sends raw breathing data back to python (1.A)
           2.B) BreathsensingFinal(Main) : Checks if Arduino is available for interaction. Receives condition input from python code (1.A). Sends Condition to Mapping code(2.C)
